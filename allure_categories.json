@@ -1,0 +1,1890 @@
+{
+	"uid": "4b4757e66a1912dae1a509f688f20b0f",
+	"name": "categories",
+	"children": [
+		{
+			"name": "Product defects",
+			"children": [
+				{
+					"name": "Element not found {By.xpath: (//h5[normalize-space()='Target Progress']/../div[1]//*[self::label or self::span]/../div/div)[2]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024474935.0.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024474935.0.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//h5[normalize-space()='Target Progress']/../div[1]//*[self::label or self::span]/../div/div)[2]\"}",
+					"children": [
+						{
+							"name": "Verify that the user can't choose a specific years in the 'Year Range' Selector from the 'Emissions Reduction Targets' tab. ",
+							"uid": "ba8b835e0f66aff0",
+							"parentUid": "817c4a806cf71aed1c131e66abb409d6",
+							"status": "failed",
+							"time": {
+								"start": 1725024463504,
+								"stop": 1725024477705,
+								"duration": 14201
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "817c4a806cf71aed1c131e66abb409d6"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024576898.1.html\nTimeout: 30 s.\nCaused by: NoSuchSessionException: invalid session id",
+					"children": [
+						{
+							"name": "s the 'Historical Emissions' section under the 'Reported Disclosures' section on the 'Company Profile' page.",
+							"uid": "a801207bb6a9f8da",
+							"parentUid": "a3863005a29c50270a6478a380fccbc1",
+							"status": "failed",
+							"time": {
+								"start": 1725024546268,
+								"stop": 1725024577065,
+								"duration": 30797
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "a3863005a29c50270a6478a380fccbc1"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024608381.2.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024608381.2.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'NZDPU Core' option is default in the 'Data Model' Selector from the 'Emissions Reduction Targets' tab.",
+							"uid": "b29e1302fa607dd7",
+							"parentUid": "5d900bae7efafcce2143834373bffb91",
+							"status": "failed",
+							"time": {
+								"start": 1725024577067,
+								"stop": 1725024608833,
+								"duration": 31766
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "5d900bae7efafcce2143834373bffb91"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024639029.3.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024639029.3.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'NZDPU Core' option selected by default in the 'Data Model' selector from the 'Historical Emissions' section on the 'Company Profile' page. ",
+							"uid": "f378f7758556f35b",
+							"parentUid": "384ebeb18a02b1e89b377dd1a9269808",
+							"status": "failed",
+							"time": {
+								"start": 1725024608835,
+								"stop": 1725024639438,
+								"duration": 30603
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "384ebeb18a02b1e89b377dd1a9269808"
+				},
+				{
+					"name": "Element not found {By.xpath: //p[contains(text(),'Data Guide')]}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024645873.4.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024645873.4.html\nTimeout: 6 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),'Data Guide')]\"}",
+					"children": [
+						{
+							"name": "s the 'NZDPU Guide' default retracted to the right of the 'Company Profile' page.",
+							"uid": "65cff762c08dbb1f",
+							"parentUid": "b031c29b8662285d3a74c9dd4ca0810b",
+							"status": "failed",
+							"time": {
+								"start": 1725024639440,
+								"stop": 1725024646244,
+								"duration": 6804
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "b031c29b8662285d3a74c9dd4ca0810b"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024676797.5.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024676797.5.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'N/A' for the columns years without data in the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "241074f88cf13d13",
+							"parentUid": "f35a94db52ca448fd87ae058a8d58b1d",
+							"status": "failed",
+							"time": {
+								"start": 1725024646246,
+								"stop": 1725024677195,
+								"duration": 30949
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "f35a94db52ca448fd87ae058a8d58b1d"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024707551.6.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024707551.6.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'Not Shown' option is selected by default in the 'N/A Rows' dropdown from the 'Emissions Reduction Targets' tab.",
+							"uid": "1f81db6e42f5eb52",
+							"parentUid": "cfc84a84c61ab03a44adf054fdbca163",
+							"status": "failed",
+							"time": {
+								"start": 1725024677241,
+								"stop": 1725024707889,
+								"duration": 30648
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "cfc84a84c61ab03a44adf054fdbca163"
+				},
+				{
+					"name": "Element not found {By.xpath: //*[contains(text(),'Close')]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024718495.7.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024718495.7.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Close')]\"}",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user is redirected to the 'Account Information' page when he deleted the own admin privileges from the 'Admin Management' page.",
+							"uid": "313817a0f46ab78d",
+							"parentUid": "17d2c0016ff615cf50dc111bb6675a9b",
+							"status": "failed",
+							"time": {
+								"start": 1725024702629,
+								"stop": 1725024719494,
+								"duration": 16865
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "17d2c0016ff615cf50dc111bb6675a9b"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024738140.9.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024738140.9.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'Scope 3 Emissions' tab selected when click on the 'Scope 3 emissions' under Scope 3 Emissions in the 'Overview' tab in 'Historical View' table on the 'Company Profile' page.",
+							"uid": "a9219cd00572294e",
+							"parentUid": "75e0b215c788186e8afa86117781d8fa",
+							"status": "failed",
+							"time": {
+								"start": 1725024707899,
+								"stop": 1725024738457,
+								"duration": 30558
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "75e0b215c788186e8afa86117781d8fa"
+				},
+				{
+					"name": "Element not found {By.xpath: //p[normalize-space()='aaaaqfdh17@nzdpu.com']/../button}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024736015.8.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024736015.8.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[normalize-space()='aaaaqfdh17@nzdpu.com']/../button\"}",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user doesn't see the 'Admin Tools' tab when deleted the own admin privileges from the 'Admin Management' page. ",
+							"uid": "adac675e38331757",
+							"parentUid": "001586f6864ff18c301c8e549d4c1f67",
+							"status": "failed",
+							"time": {
+								"start": 1725024722797,
+								"stop": 1725024737104,
+								"duration": 14307
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "001586f6864ff18c301c8e549d4c1f67"
+				},
+				{
+					"name": "Element not found {By.xpath: //button[@role='button' and @type='button']}\nExpected: disabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024741191.10.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024741191.10.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@role='button' and @type='button']\"}",
+					"children": [
+						{
+							"name": "Verify that the button 'Resend the link' is disabled when 'Confirmation' popup appears.",
+							"uid": "c3921207d2993296",
+							"parentUid": "b9495522e46501d7dfb3b72f04a70f03",
+							"status": "failed",
+							"time": {
+								"start": 1725024734135,
+								"stop": 1725024742138,
+								"duration": 8003
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "b9495522e46501d7dfb3b72f04a70f03"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024768850.12.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024768850.12.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'See More Details' link in the DATA KEY from the 'Emissions Reduction Targets' tab. ",
+							"uid": "bf82ed362e20971a",
+							"parentUid": "13870fc018fd435252ad995d964b91e7",
+							"status": "failed",
+							"time": {
+								"start": 1725024738461,
+								"stop": 1725024769171,
+								"duration": 30710
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "13870fc018fd435252ad995d964b91e7"
+				},
+				{
+					"name": "Element not found {By.xpath: //p[normalize-space()='aaatqpu97@nzdpu.com']/../button}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024753232.11.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024753232.11.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[normalize-space()='aaatqpu97@nzdpu.com']/../button\"}",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user doesn't see the 'Admin Tools' tab when deleted the own admin privileges from the 'Admin Management' page. ",
+							"uid": "a46aabeb306bb8df",
+							"parentUid": "cd6be7196653a9e4bec3c4735d17b56b",
+							"status": "failed",
+							"time": {
+								"start": 1725024739768,
+								"stop": 1725024754467,
+								"duration": 14699
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "cd6be7196653a9e4bec3c4735d17b56b"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024799381.13.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024799381.13.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the 'Target Reduction' metric with percentage changed on the \u2018Emissions Reduction Targets\u2019 third metric card on the 'Company Profile' page when user changed the selected option from the dropdown.",
+							"uid": "6001a9c246c76bc3",
+							"parentUid": "862d488592c45095a6be71c9d7f83d51",
+							"status": "failed",
+							"time": {
+								"start": 1725024769173,
+								"stop": 1725024799745,
+								"duration": 30572
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "862d488592c45095a6be71c9d7f83d51"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024830108.14.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024830108.14.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the arrow for collapse the expended rows for each target in the default 'Data Table' from the Emissions Reduction Targets' tab.",
+							"uid": "f5cfdfcd1b91542c",
+							"parentUid": "b33e80a8d2d7efe90a84417b9d1be494",
+							"status": "failed",
+							"time": {
+								"start": 1725024799755,
+								"stop": 1725024830464,
+								"duration": 30709
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "b33e80a8d2d7efe90a84417b9d1be494"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024860759.15.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024860759.15.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the basic information about the specific Company on the 'Company Profile' page.",
+							"uid": "1045cb25290ff677",
+							"parentUid": "269ba2bdb1554a6b2c09be904b939698",
+							"status": "failed",
+							"time": {
+								"start": 1725024830467,
+								"stop": 1725024861194,
+								"duration": 30727
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "269ba2bdb1554a6b2c09be904b939698"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024891539.16.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024891539.16.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the by default 'i.e. 2018-2022' option in the 'Year Range' selector from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "19888be945b36072",
+							"parentUid": "aa06d73dc413143ede8d5e369d0af4d3",
+							"status": "failed",
+							"time": {
+								"start": 1725024861198,
+								"stop": 1725024891858,
+								"duration": 30660
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "aa06d73dc413143ede8d5e369d0af4d3"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024922086.20.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024922086.20.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the closed popup with all data value on the 'Company Profile' page when click on the 'X' icon.",
+							"uid": "dc3f369dbd35500b",
+							"parentUid": "de49b3793964d0117724812625beebf6",
+							"status": "failed",
+							"time": {
+								"start": 1725024891862,
+								"stop": 1725024922399,
+								"duration": 30537
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "de49b3793964d0117724812625beebf6"
+				},
+				{
+					"name": "Element not found {By.xpath: //input[@id='select-jurisdiction']}\nExpected: visible\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024905164.17.html\nTimeout: 10 s.\nCaused by: NoSuchSessionException: invalid session id",
+					"children": [
+						{
+							"name": "choose three jurisdictions in the 'Jurisdiction' filter on the 'Companies' page.",
+							"uid": "811e2142c767a2ff",
+							"parentUid": "451243282445e708114f72199596b806",
+							"status": "failed",
+							"time": {
+								"start": 1725024895126,
+								"stop": 1725024905347,
+								"duration": 10221
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "451243282445e708114f72199596b806"
+				},
+				{
+					"name": "Element not found {By.xpath: //input[@id='select-jurisdiction']/..}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024916437.18.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024916437.18.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='select-jurisdiction']/..\"}",
+					"children": [
+						{
+							"name": "f the results from the title of the 'Companies' section change when user applied the filters on the 'Companies' page.",
+							"uid": "423c906715edd76f",
+							"parentUid": "492a250dc6771850b9ca73298b4cda15",
+							"status": "failed",
+							"time": {
+								"start": 1725024906321,
+								"stop": 1725024916846,
+								"duration": 10525
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "492a250dc6771850b9ca73298b4cda15"
+				},
+				{
+					"name": "Element not found {By.xpath: //*[contains(text(),'Export company list')]}\nExpected: disabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024921272.19.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024921272.19.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Export company list')]\"}",
+					"children": [
+						{
+							"name": "Company List' button is inactive when the applied filters from the 'Companies' page return 0 results.",
+							"uid": "9f7d96d5dd85af8e",
+							"parentUid": "08164bbbbde7225a51cdd4a33424da08",
+							"status": "failed",
+							"time": {
+								"start": 1725024917060,
+								"stop": 1725024921615,
+								"duration": 4555
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "08164bbbbde7225a51cdd4a33424da08"
+				},
+				{
+					"name": "Element not found {By.xpath: //input[@id='select-jurisdiction']}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024931977.21.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024931977.21.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='select-jurisdiction']\"}",
+					"children": [
+						{
+							"name": " in the Companies section 'N' Results corresponds to the sum of all rows in the table",
+							"uid": "90fb9fe108d19dbc",
+							"parentUid": "81b51d427615d6fcae7874b10a690c58",
+							"status": "failed",
+							"time": {
+								"start": 1725024921813,
+								"stop": 1725024932400,
+								"duration": 10587
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "81b51d427615d6fcae7874b10a690c58"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024952635.23.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024952635.23.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the columns that are previously out of view when drag the scrollbar horizontally in the default 'Data Table' from the 'Emission Reduction Targets' tab.",
+							"uid": "dc57260050c7f144",
+							"parentUid": "713293fd065788ab5b6e08c85ede42ce",
+							"status": "failed",
+							"time": {
+								"start": 1725024922400,
+								"stop": 1725024953043,
+								"duration": 30643
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "713293fd065788ab5b6e08c85ede42ce"
+				},
+				{
+					"name": "Element not found {By.xpath: //input[@id='select-reported-year']}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024942711.22.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024942711.22.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='select-reported-year']\"}",
+					"children": [
+						{
+							"name": " the default state of the 'Latest Reported Year' filter filed when click on the 'All Years' option in the dropdown of the 'Latest Reported Year' filter on the 'Companies' page.",
+							"uid": "9c3bb3aefa0180b4",
+							"parentUid": "0712098c4ea688c2b9e051cec5bb99d3",
+							"status": "failed",
+							"time": {
+								"start": 1725024932590,
+								"stop": 1725024943055,
+								"duration": 10465
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "0712098c4ea688c2b9e051cec5bb99d3"
+				},
+				{
+					"name": "Element not found {By.xpath: //input[@id='select-reported-year']}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024953427.24.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024953427.24.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='select-reported-year']\"}",
+					"children": [
+						{
+							"name": " the default state of the 'Latest Reported Year' filter filed when click on the 'All Years' option in the dropdown of the 'Latest Reported Year' filter on the 'Companies' page.",
+							"uid": "7df880868be931be",
+							"parentUid": "0fc745fce50d76666e10c345dc855d31",
+							"status": "failed",
+							"time": {
+								"start": 1725024943245,
+								"stop": 1725024953752,
+								"duration": 10507
+							},
+							"flaky": false,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "0fc745fce50d76666e10c345dc855d31"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024983432.25.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725024983432.25.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the components of the 'Emissions Breakdown by Year' first metric card on the 'Company Profile' page.",
+							"uid": "d90a7f059395e17f",
+							"parentUid": "413bc2042427c2c0fa57b56d441c6ec0",
+							"status": "failed",
+							"time": {
+								"start": 1725024953050,
+								"stop": 1725024983740,
+								"duration": 30690
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "413bc2042427c2c0fa57b56d441c6ec0"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025014097.26.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025014097.26.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the components of the \u2018Emissions Reduction Targets\u2019 third metric card from the 'Company Profile' page.",
+							"uid": "73cfad20fad9d45d",
+							"parentUid": "a8ed278b2c2df45340d37e2c48cab750",
+							"status": "failed",
+							"time": {
+								"start": 1725024983742,
+								"stop": 1725025014423,
+								"duration": 30681
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "a8ed278b2c2df45340d37e2c48cab750"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025044627.27.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025044627.27.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the controls of the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "7bed6a8eec785fe5",
+							"parentUid": "4c3af872856e965b42f1cdd0316a5c9a",
+							"status": "failed",
+							"time": {
+								"start": 1725025014425,
+								"stop": 1725025044966,
+								"duration": 30541
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "4c3af872856e965b42f1cdd0316a5c9a"
+				},
+				{
+					"name": "Element not found {By.xpath: //h5[normalize-space()='Target Progress']/../div[1]//*[self::label or self::span][0]}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025075359.28.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025075359.28.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h5[normalize-space()='Target Progress']/../div[1]//*[self::label or self::span]\"}",
+					"children": [
+						{
+							"name": "s the controls when scroll to the 'Target Progress' section from the 'Emissions Reduction Targets' tab on the 'Company Profile' leading page.",
+							"uid": "d087217e628771e8",
+							"parentUid": "c40c95ddf57eb1ce5cb90ea9756f6fd3",
+							"status": "failed",
+							"time": {
+								"start": 1725025044971,
+								"stop": 1725025075725,
+								"duration": 30754
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "c40c95ddf57eb1ce5cb90ea9756f6fd3"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025105937.29.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025105937.29.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the data source displayed in-cell underneath each data value when click on the 'Shown' option from the 'Data Sources' dropdown on the 'Emissions Reduction Targets' tab. ",
+							"uid": "78b2e2598617c9ff",
+							"parentUid": "43b6386509e88cf9a3df6783835cc60d",
+							"status": "failed",
+							"time": {
+								"start": 1725025075728,
+								"stop": 1725025106305,
+								"duration": 30577
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "43b6386509e88cf9a3df6783835cc60d"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025136504.30.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025136504.30.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the data table refreshes when click on the one of the subsection tab from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "a0ee37a6cc464449",
+							"parentUid": "0c929d0e5a342419937d4a09a27d07d5",
+							"status": "failed",
+							"time": {
+								"start": 1725025106308,
+								"stop": 1725025136838,
+								"duration": 30530
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "0c929d0e5a342419937d4a09a27d07d5"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025167227.32.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025167227.32.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the default 'Not Shown' option in the 'Data Sources' dropdown from the 'Emissions Reduction Targets' tab. ",
+							"uid": "7df047132adf8076",
+							"parentUid": "81d6ca02131fa4aa731195cbf5b6b703",
+							"status": "failed",
+							"time": {
+								"start": 1725025136840,
+								"stop": 1725025167553,
+								"duration": 30713
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "81d6ca02131fa4aa731195cbf5b6b703"
+				},
+				{
+					"name": "Element not found {By.xpath: //button[normalize-space()='ADD ADMIN']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025164373.31.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025164373.31.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[normalize-space()='ADD ADMIN']\"}",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user can't add an AdVerify that the NZDPU Admin user who is already in the system as Admin ",
+							"uid": "ac685c9ec5fbe3bc",
+							"parentUid": "161dc371fc331286de72f6f50b1621f8",
+							"status": "failed",
+							"time": {
+								"start": 1725025150998,
+								"stop": 1725025165339,
+								"duration": 14341
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "161dc371fc331286de72f6f50b1621f8"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025197988.33.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025197988.33.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the default historical progress table when opened the 'Emissions Reduction Targets' tab.",
+							"uid": "7e4a5b5ccd8adb12",
+							"parentUid": "6b74ee263e70da9d3b4192d229d6be86",
+							"status": "failed",
+							"time": {
+								"start": 1725025167554,
+								"stop": 1725025198268,
+								"duration": 30714
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "6b74ee263e70da9d3b4192d229d6be86"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025228622.34.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025228622.34.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the default value in the 'Year Range' Selector from the 'Emissions Reduction Targets' tab. ",
+							"uid": "b348a8f7df60404f",
+							"parentUid": "375b2b5e06ffedd134eeb4522ef7879a",
+							"status": "failed",
+							"time": {
+								"start": 1725025198271,
+								"stop": 1725025228924,
+								"duration": 30653
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "375b2b5e06ffedd134eeb4522ef7879a"
+				},
+				{
+					"name": "Element not found {By.xpath: F}\nExpected: exist\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025236250.35.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025236250.35.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"F\"}",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user is taken to the previous page when delete the Admin from the last page with one row on the 'Admin Management' page. ",
+							"uid": "87e5647e766b7266",
+							"parentUid": "efbef0422c561682dc9024aca5428981",
+							"status": "failed",
+							"time": {
+								"start": 1725025220586,
+								"stop": 1725025237155,
+								"duration": 16569
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "efbef0422c561682dc9024aca5428981"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025259220.36.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025259220.36.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the dropdown opened when click on the arrow in the 'Emissions Breakdown by Year' first metric card on the 'Company Profile' page.",
+							"uid": "1da2e3f4baccafd3",
+							"parentUid": "85ee72b7e731001e29ee6bf9a5695838",
+							"status": "failed",
+							"time": {
+								"start": 1725025228926,
+								"stop": 1725025259530,
+								"duration": 30604
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "85ee72b7e731001e29ee6bf9a5695838"
+				},
+				{
+					"name": "Element not found {By.xpath: ((//div[@class='slick-track'])[1]/div[2]//input/../div)[1]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025269738.37.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025269738.37.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"((//div[@class='slick-track'])[1]/div[2]//input/../div)[1]\"}",
+					"children": [
+						{
+							"name": "s the error message on the 'Emissions by Scope' second metric card from the 'Company Profile' page when for a specific scope NZDPU doesn\u2019t have data for any of the years in the range.",
+							"uid": "2857817488d2f60d",
+							"parentUid": "ebf57cf4b2a9e2ab42846c4c4cc27d14",
+							"status": "failed",
+							"time": {
+								"start": 1725025259534,
+								"stop": 1725025270062,
+								"duration": 10528
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "ebf57cf4b2a9e2ab42846c4c4cc27d14"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025300359.38.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025300359.38.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the error message when user chosen a year has incomplete data in the 'Emissions Breakdown by Year' metric on the 'Company Profile' page.",
+							"uid": "8c2a748ea6d088e0",
+							"parentUid": "7a1108305aaa913559de035db78b3245",
+							"status": "failed",
+							"time": {
+								"start": 1725025270065,
+								"stop": 1725025300670,
+								"duration": 30605
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "7a1108305aaa913559de035db78b3245"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025350910.39.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025350910.39.html\nTimeout: 50 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the expended by default the rows in the default 'Data Table' from the Emissions Reduction Targets' tab.",
+							"uid": "85522d8cd6ce30af",
+							"parentUid": "9abccd368e41e482259b7fc77307ba27",
+							"status": "failed",
+							"time": {
+								"start": 1725025300671,
+								"stop": 1725025351258,
+								"duration": 50587
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9abccd368e41e482259b7fc77307ba27"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025381588.40.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025381588.40.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the first column 'Data Field' is always in view when drag the scrollbar horizontally in the default 'Data Table' from the 'Emission Reduction Targets' tab.",
+							"uid": "3d97573636657f9f",
+							"parentUid": "ef5a12eb9f6d9c62316314483833da65",
+							"status": "failed",
+							"time": {
+								"start": 1725025351261,
+								"stop": 1725025381931,
+								"duration": 30670
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "ef5a12eb9f6d9c62316314483833da65"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025412282.41.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025412282.41.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the grayed out and unclickable options 'Coming Soon' from the 'Data Model' Selector ",
+							"uid": "ab8dbc489400baf3",
+							"parentUid": "a98637269d36bff31f42e2d929ea2d69",
+							"status": "failed",
+							"time": {
+								"start": 1725025381936,
+								"stop": 1725025412601,
+								"duration": 30665
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "a98637269d36bff31f42e2d929ea2d69"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025442857.42.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025442857.42.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the header row is always in view when drag the scrollbar vertically in the default 'Data Table' from the 'Emission Reduction Targets' tab.",
+							"uid": "600b4d2e8e8e7ce8",
+							"parentUid": "4ea583cdbbd54c13f90039d01f60de84",
+							"status": "failed",
+							"time": {
+								"start": 1725025412604,
+								"stop": 1725025443253,
+								"duration": 30649
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "4ea583cdbbd54c13f90039d01f60de84"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025473569.43.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025473569.43.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the historical view from the least recent year on the left of the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "256227c08d8f90a3",
+							"parentUid": "67115352cefcb8500933ac1fa37f2dc5",
+							"status": "failed",
+							"time": {
+								"start": 1725025443256,
+								"stop": 1725025473897,
+								"duration": 30641
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "67115352cefcb8500933ac1fa37f2dc5"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025504179.44.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025504179.44.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the least recent year on the left and sequentially moving towards the most recent year on the right in the default 'Data Table' from the 'Emissions Reduction Targets' tab.",
+							"uid": "d8fd9798bfbc1a57",
+							"parentUid": "7a1541b58ceb12e21af2d9a23294fdb5",
+							"status": "failed",
+							"time": {
+								"start": 1725025473900,
+								"stop": 1725025504492,
+								"duration": 30592
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "7a1541b58ceb12e21af2d9a23294fdb5"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025534822.45.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025534822.45.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the link 'Scope 3 emissions' under Scope 3 Emissions in the 'Overview' tab in 'Historical View' table on the 'Company Profile' page.",
+							"uid": "b725c571c18b7c3",
+							"parentUid": "3f0ab9bbe4c85869de8893fed570e95b",
+							"status": "failed",
+							"time": {
+								"start": 1725025504497,
+								"stop": 1725025535124,
+								"duration": 30627
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "3f0ab9bbe4c85869de8893fed570e95b"
+				},
+				{
+					"name": "The NZDPU Admin user sees the first 10 rows of results in the Data Table on the 'Admin Management' page.  ' expected [10] but found [Rows per page:]",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user sees the first 10 rows of results in the Data Table on the 'Admin Management' page. ",
+							"uid": "3c199c510e6d523f",
+							"parentUid": "9162476e1d6cd1c1ac8fd0bb1728e999",
+							"status": "failed",
+							"time": {
+								"start": 1725025514452,
+								"stop": 1725025515942,
+								"duration": 1490
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9162476e1d6cd1c1ac8fd0bb1728e999"
+				},
+				{
+					"name": "The user sees the option for the 'Row per Page' on the 'Admin Management' page. 10,20,30,40,50' expected [[10, 20, 30, 40, 50]] but found [[]]",
+					"children": [
+						{
+							"name": "Verify that the NZDPU Admin user sees the option for the Row per Page on the 'Admin Management' page. 10,20,30,40,50 ",
+							"uid": "5ba7c64ed0b5990a",
+							"parentUid": "a6af49faf06e4331afa7fc5d5eb4c5e1",
+							"status": "failed",
+							"time": {
+								"start": 1725025532778,
+								"stop": 1725025534271,
+								"duration": 1493
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "a6af49faf06e4331afa7fc5d5eb4c5e1"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025565383.46.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025565383.46.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the message on the Sector, SubSector, Industry when the company does not have a matching SICS classification in the header information from the 'Company Profile' page.",
+							"uid": "25ad71c0dbfa92a2",
+							"parentUid": "964be602e2df4ffbf266fe1f463fc259",
+							"status": "failed",
+							"time": {
+								"start": 1725025535125,
+								"stop": 1725025565712,
+								"duration": 30587
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "964be602e2df4ffbf266fe1f463fc259"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025596020.47.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025596020.47.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the message when go hover over the tooltip next to the 'SICS sector' in the Block Company information starts with LEI from the 'Company Profile' page.",
+							"uid": "d252f6f6dc7c8deb",
+							"parentUid": "ac690aa7f50d203ce1b21375516f853c",
+							"status": "failed",
+							"time": {
+								"start": 1725025565715,
+								"stop": 1725025596305,
+								"duration": 30590
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "ac690aa7f50d203ce1b21375516f853c"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025626596.48.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025626596.48.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the most recent year on the right when scroll the horizontal scrollbar from the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "31f08b085357a693",
+							"parentUid": "8e68fd054f080e1c0e6ddec8fcf8f560",
+							"status": "failed",
+							"time": {
+								"start": 1725025596308,
+								"stop": 1725025626928,
+								"duration": 30620
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "8e68fd054f080e1c0e6ddec8fcf8f560"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025657279.49.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025657279.49.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the option in the dropdown when click on the dropdown arrow from the 'Emissions by Scope' second metric card on the 'Company Profile' page.",
+							"uid": "ba7b7ef2d123b7d1",
+							"parentUid": "9a3eff1580d7afd90b5822d25ed3fe01",
+							"status": "failed",
+							"time": {
+								"start": 1725025626932,
+								"stop": 1725025657610,
+								"duration": 30678
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9a3eff1580d7afd90b5822d25ed3fe01"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025687926.50.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025687926.50.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'N/A Rows' dropdown when click on the 'N/A Rows' dropdown from the 'Emissions Reduction Targets' tab.",
+							"uid": "6fa7d6daf2f71b6f",
+							"parentUid": "5f1d9de33a67f3316071c51df23abb4a",
+							"status": "failed",
+							"time": {
+								"start": 1725025657613,
+								"stop": 1725025688224,
+								"duration": 30611
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "5f1d9de33a67f3316071c51df23abb4a"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025718557.51.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025718557.51.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'Data Model' Selector from the 'Emissions Reduction Targets' tab. ",
+							"uid": "b598779cb983c939",
+							"parentUid": "35e7860868a1c0dcce4e5268a9f0e641",
+							"status": "failed",
+							"time": {
+								"start": 1725025688225,
+								"stop": 1725025718907,
+								"duration": 30682
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "35e7860868a1c0dcce4e5268a9f0e641"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025749235.52.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025749235.52.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'Data Model' selector from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "616c0515696bde80",
+							"parentUid": "9c02b8c72fcac6815c62875e79496a2c",
+							"status": "failed",
+							"time": {
+								"start": 1725025718910,
+								"stop": 1725025749623,
+								"duration": 30713
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9c02b8c72fcac6815c62875e79496a2c"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025779886.53.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025779886.53.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'Data Sources' dropdown from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "7e55a405f3c4b7c9",
+							"parentUid": "49cb0597b8a1f3a3eaa0dc54e14ff044",
+							"status": "failed",
+							"time": {
+								"start": 1725025749627,
+								"stop": 1725025780179,
+								"duration": 30552
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "49cb0597b8a1f3a3eaa0dc54e14ff044"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025810398.54.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025810398.54.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'N/A Rows' dropdown from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "b314fcc72795b12d",
+							"parentUid": "00949bdd57191c70130ebb6a89f0170a",
+							"status": "failed",
+							"time": {
+								"start": 1725025780182,
+								"stop": 1725025810713,
+								"duration": 30531
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "00949bdd57191c70130ebb6a89f0170a"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025840948.55.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025840948.55.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'Year Range' Selector from the 'Emissions Reduction Targets' tab. ",
+							"uid": "5c21cd6808d116bb",
+							"parentUid": "071fd75c46429408f0f441151a1334ea",
+							"status": "failed",
+							"time": {
+								"start": 1725025810718,
+								"stop": 1725025841271,
+								"duration": 30553
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "071fd75c46429408f0f441151a1334ea"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025871493.56.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025871493.56.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options for the 'Year Range' selector from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "6d77885781a95a43",
+							"parentUid": "9e1cffb4b85fce50666b993a4bdf31da",
+							"status": "failed",
+							"time": {
+								"start": 1725025841273,
+								"stop": 1725025871799,
+								"duration": 30526
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9e1cffb4b85fce50666b993a4bdf31da"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025902034.57.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025902034.57.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the options from the 'Data Sources' dropdown on the 'Emissions Reduction Targets' tab. ",
+							"uid": "1959962ae7aef9ce",
+							"parentUid": "5252a7737c4a343e09559808cd07a88d",
+							"status": "failed",
+							"time": {
+								"start": 1725025871803,
+								"stop": 1725025902340,
+								"duration": 30537
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "5252a7737c4a343e09559808cd07a88d"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025932575.58.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025932575.58.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the order of the years from the dropdown in the 'Emissions Breakdown by Year' metric on the 'Company Profile' page.",
+							"uid": "92bf0fe83b9a04c7",
+							"parentUid": "d83456fe0331882142d55f8b571f50ab",
+							"status": "failed",
+							"time": {
+								"start": 1725025902343,
+								"stop": 1725025932866,
+								"duration": 30523
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "d83456fe0331882142d55f8b571f50ab"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025963111.59.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025963111.59.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the pop-up pane that displays the full text when click on the ellipses in the default 'Data Table' from the 'Emission Reduction Targets' tab.",
+							"uid": "5893a4ef168ae3a4",
+							"parentUid": "383ca02fd853b5e28087c2628b87eeb1",
+							"status": "failed",
+							"time": {
+								"start": 1725025932870,
+								"stop": 1725025963404,
+								"duration": 30534
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "383ca02fd853b5e28087c2628b87eeb1"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025993641.60.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725025993641.60.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the pop-up pane with all missed data value closed when click on the 'X' icon from the pop-up.",
+							"uid": "3b6a703dec697e03",
+							"parentUid": "484a1ffe569371ac43c84d17d3a45971",
+							"status": "failed",
+							"time": {
+								"start": 1725025963406,
+								"stop": 1725025994056,
+								"duration": 30650
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "484a1ffe569371ac43c84d17d3a45971"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026024289.61.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026024289.61.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the popup with all data value when click on the trounced ellipse from the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "3d55dda0fc35af74",
+							"parentUid": "9a3e132c970e749cb62474c6906efd7c",
+							"status": "failed",
+							"time": {
+								"start": 1725025994060,
+								"stop": 1725026024588,
+								"duration": 30528
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9a3e132c970e749cb62474c6906efd7c"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026054820.62.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026054820.62.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the refreshed Data Table when click on the 'Scope 3 emissions' link under Scope 3 Emissions in the 'Overview' tab in 'Historical View' table on the 'Company Profile' page.",
+							"uid": "b8af67354f723a99",
+							"parentUid": "f9ba47a9130d7a5b6a7f46b43282f9c7",
+							"status": "failed",
+							"time": {
+								"start": 1725026024590,
+								"stop": 1725026055132,
+								"duration": 30542
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "f9ba47a9130d7a5b6a7f46b43282f9c7"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026085367.63.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026085367.63.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the rows with all N/A values when selected the 'Shown' option in the 'N/A Rows' dropdown from the 'Emissions Reduction Targets' tab.",
+							"uid": "122f4aaa2eb0dfb6",
+							"parentUid": "768a32e1d6fbbe1f52402a41774a2759",
+							"status": "failed",
+							"time": {
+								"start": 1725026055136,
+								"stop": 1725026085653,
+								"duration": 30517
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "768a32e1d6fbbe1f52402a41774a2759"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026115873.64.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026115873.64.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the subsection from the 'Historical Emissions' section for companies who are not financial institutions on the 'Company Profile' page.",
+							"uid": "de92db5169423ad3",
+							"parentUid": "721030e864e2a08e103ff16761f338f5",
+							"status": "failed",
+							"time": {
+								"start": 1725026085656,
+								"stop": 1725026116171,
+								"duration": 30515
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "721030e864e2a08e103ff16761f338f5"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026146420.65.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026146420.65.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the subsection from the 'Historical Emissions' section for companies who are financial institutions on the 'Company Profile' page.",
+							"uid": "29f5021144960909",
+							"parentUid": "9f076da1f8330f901cb082605db633de",
+							"status": "failed",
+							"time": {
+								"start": 1725026116175,
+								"stop": 1725026146752,
+								"duration": 30577
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "9f076da1f8330f901cb082605db633de"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026177027.66.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026177027.66.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the unclickable 'VIEW TARGET' dropdown when the NZDPU does not have any target data for this company on the \u2018Emissions Reduction Targets\u2019 third metric card from the 'Company Profile' page.",
+							"uid": "8f8f780f7f5164f",
+							"parentUid": "435128397b9b8e81c7a85209fbd79cbf",
+							"status": "failed",
+							"time": {
+								"start": 1725026146754,
+								"stop": 1725026177342,
+								"duration": 30588
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "435128397b9b8e81c7a85209fbd79cbf"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026207600.67.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026207600.67.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the unclickable and the grayed out the options 'EFRAG - coming soon', 'ISSB - coming soon' when click on the 'Data Model' selector from the 'Historical Emissions' section on the 'Company Profile' page.",
+							"uid": "52f26cc6cdb5c24a",
+							"parentUid": "d8d514dd661ff9ad218936d3b52e395f",
+							"status": "failed",
+							"time": {
+								"start": 1725026177346,
+								"stop": 1725026207918,
+								"duration": 30572
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "d8d514dd661ff9ad218936d3b52e395f"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026238193.68.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026238193.68.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the visual indicator for on the header of row for the expended in the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "f89abd398480e153",
+							"parentUid": "81476dd69636d684f1686d9b7781e4f8",
+							"status": "failed",
+							"time": {
+								"start": 1725026207921,
+								"stop": 1725026238503,
+								"duration": 30582
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "81476dd69636d684f1686d9b7781e4f8"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026268776.69.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026268776.69.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the word 'emissions' appears on the \u2018Emissions Reduction Targets\u2019 third metric card from the 'Company Profile' page when user click on the absolute target from the dropdown.",
+							"uid": "d7a9305452a2f2e3",
+							"parentUid": "13b0455f4f0f5fe8e8aad8e829e5e782",
+							"status": "failed",
+							"time": {
+								"start": 1725026238507,
+								"stop": 1725026269092,
+								"duration": 30585
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "13b0455f4f0f5fe8e8aad8e829e5e782"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026299382.70.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026299382.70.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "s the word 'emissions' appears on the \u2018Emissions Reduction Targets\u2019 third metric card from the 'Company Profile' page when user click on the intensity target from the dropdown.",
+							"uid": "66f3013a0ae3297d",
+							"parentUid": "c4810a6bddfbee8c159d23693d6acd58",
+							"status": "failed",
+							"time": {
+								"start": 1725026269094,
+								"stop": 1725026299724,
+								"duration": 30630
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "c4810a6bddfbee8c159d23693d6acd58"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026329934.71.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026329934.71.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "ues that exceed the cell maximum width and height are truncated with ellipses in the default 'Data Table' from the 'Emission Reduction Targets' tab.",
+							"uid": "b807ebf6b04fc841",
+							"parentUid": "55285a2c9d98b32ad10d2e05316e4337",
+							"status": "failed",
+							"time": {
+								"start": 1725026299727,
+								"stop": 1725026330267,
+								"duration": 30540
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "55285a2c9d98b32ad10d2e05316e4337"
+				},
+				{
+					"name": "Element not found {By.xpath: //p[contains(text(),'Data Guide')]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026340612.72.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026340612.72.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),'Data Guide')]\"}",
+					"children": [
+						{
+							"name": "click on the 'NZDPU Guide' of the 'Company Profile' page.",
+							"uid": "3aab2bd2fa680fb1",
+							"parentUid": "353ba8f8afd513fdc24d67665504913a",
+							"status": "failed",
+							"time": {
+								"start": 1725026330270,
+								"stop": 1725026340926,
+								"duration": 10656
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "353ba8f8afd513fdc24d67665504913a"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026371155.73.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026371155.73.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": "ts of the 'Emissions by Scope' second metric card on the 'Company Profile' page.",
+							"uid": "63a4cc4a569c7af4",
+							"parentUid": "6555a17c45a8ede5492173a9f50f7ffb",
+							"status": "failed",
+							"time": {
+								"start": 1725026340929,
+								"stop": 1725026371483,
+								"duration": 30554
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "6555a17c45a8ede5492173a9f50f7ffb"
+				},
+				{
+					"name": "Element not found {By.xpath: //h1}\nExpected: visible\nScreenshot: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026401704.74.png\nPage source: file:/var/lib/jenkins/workspace/NZDPU%20DEV/build/reports/tests/1725026401704.74.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1\"}",
+					"children": [
+						{
+							"name": " the popup with all data value when click the trounced ellipse from the 'Historical Emissions' table on the 'Company Profile' page.",
+							"uid": "37ac46010e4ddd2",
+							"parentUid": "814cbf89d4a12a2caf9173aab6e3cd52",
+							"status": "failed",
+							"time": {
+								"start": 1725026371487,
+								"stop": 1725026402191,
+								"duration": 30704
+							},
+							"flaky": true,
+							"newFailed": true,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 0,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "814cbf89d4a12a2caf9173aab6e3cd52"
+				}
+			],
+			"uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+		},
+		{
+			"name": "Test defects",
+			"children": [
+				{
+					"name": "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=126.0.6478.126)\nBuild info: version: '4.22.0', revision: 'c5f3146703*'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1015-aws', java.version: '17.0.6'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [2ee6fa13fbf68ba2a4d2277f5297ca22, deleteAllCookies {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:4444/devtool..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ee6fa13fbf68ba2a4d2277f5297ca22",
+					"children": [
+						{
+							"name": "setUp",
+							"uid": "553710a2beaeee43",
+							"parentUid": "1ee1806de4c9202a11ad8ed5239288c6",
+							"status": "broken",
+							"time": {
+								"start": 1725024960454,
+								"stop": 1725024960454,
+								"duration": 0
+							},
+							"flaky": false,
+							"newFailed": false,
+							"newPassed": false,
+							"newBroken": false,
+							"retriesCount": 18,
+							"retriesStatusChange": false,
+							"parameters": []
+						}
+					],
+					"uid": "1ee1806de4c9202a11ad8ed5239288c6"
+				}
+			],
+			"uid": "bdbf199525818fae7a8651db9eafe741"
+		}
+	]
+}

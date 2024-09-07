@@ -339,7 +339,7 @@
 				>
 					<div class="  font-semibold line-clamp-1">{model.name}</div>
 					<div class=" text-xs overflow-hidden text-ellipsis line-clamp-1">
-						{!!model?.info?.meta?.description ? model?.info?.meta?.description : model.id}
+						{model?.info?.meta?.description ? model?.info?.meta?.description : model.id}
 					</div>
 				</div>
 			</a>
@@ -595,7 +595,7 @@
 
 	<a
 		class=" flex space-x-4 cursor-pointer w-full mb-2 px-3 py-2"
-		href="https://openwebui.com/#open-webui-community"
+		href="https://umaruzdanov.com/"
 		target="_blank"
 	>
 		<div class=" self-center w-10 flex-shrink-0">

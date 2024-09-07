@@ -22,6 +22,8 @@ import shutil
 
 from constants import ERROR_MESSAGES
 
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 ####################################
 # Load .env file
 ####################################
@@ -89,13 +91,13 @@ class EndpointFilter(logging.Filter):
 logging.getLogger("uvicorn.access").addFilter(EndpointFilter())
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
-if WEBUI_NAME != "Open WebUI":
-    WEBUI_NAME += " (Open WebUI)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Paolo Sacco AI")
+if WEBUI_NAME != "Paolo Sacco AI":
+    WEBUI_NAME += " (Paolo Sacco AI)"
 
 WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
 
-WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
+WEBUI_FAVICON_URL = ""
 
 
 ####################################
@@ -513,7 +515,7 @@ else:
 # CUSTOM_NAME
 ####################################
 
-CUSTOM_NAME = os.environ.get("CUSTOM_NAME", "")
+CUSTOM_NAME = os.environ.get("CUSTOM_NAME", "Paolo Sacco AI")
 
 if CUSTOM_NAME:
     try:
@@ -767,10 +769,6 @@ DEFAULT_PROMPT_SUGGESTIONS = PersistentConfig(
     "DEFAULT_PROMPT_SUGGESTIONS",
     "ui.prompt_suggestions",
     [
-        {
-            "title": ["Help me study", "vocabulary for a college entrance exam"],
-            "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
-        },
         {
             "title": ["Give me ideas", "for what to do with my kids' art"],
             "content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter.",

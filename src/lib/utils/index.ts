@@ -391,7 +391,7 @@ const convertOpenAIMessages = (convo) => {
 	let currentId = '';
 	let lastId = null;
 
-	for (let message_id in mapping) {
+	for (const message_id in mapping) {
 		const message = mapping[message_id];
 		currentId = message_id;
 		try {
@@ -425,7 +425,7 @@ const convertOpenAIMessages = (convo) => {
 		}
 	}
 
-	let history = {};
+	const history = {};
 	messages.forEach((obj) => (history[obj.id] = obj));
 
 	const chat = {
@@ -464,7 +464,7 @@ const validateChat = (chat) => {
 	}
 
 	// Every message's content should be a string
-	for (let message of messages) {
+	for (const message of messages) {
 		if (typeof message.content !== 'string') {
 			return false;
 		}
@@ -477,7 +477,7 @@ export const convertOpenAIChats = (_chats) => {
 	// Create a list of dictionaries with each conversation from import
 	const chats = [];
 	let failed = 0;
-	for (let convo of _chats) {
+	for (const convo of _chats) {
 		const chat = convertOpenAIMessages(convo);
 
 		if (validateChat(chat)) {
@@ -524,12 +524,12 @@ export const extractSentences = (text) => {
 	// This regular expression matches code blocks marked by triple backticks
 	const codeBlockRegex = /```[\s\S]*?```/g;
 
-	let codeBlocks = [];
+	const codeBlocks = [];
 	let index = 0;
 
 	// Temporarily replace code blocks with placeholders and store the blocks separately
 	text = text.replace(codeBlockRegex, (match) => {
-		let placeholder = `\u0000${index}\u0000`; // Use a unique placeholder
+		const placeholder = `\u0000${index}\u0000`; // Use a unique placeholder
 		codeBlocks[index++] = match;
 		return placeholder;
 	});

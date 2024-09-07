@@ -16,7 +16,7 @@ if (frontend_build_dir := Path(__file__).parent / "frontend").exists():
 @app.command()
 def serve(
     host: str = "0.0.0.0",
-    port: int = 8080,
+    port: int = 8180,
 ):
     if os.getenv("WEBUI_SECRET_KEY") is None:
         typer.echo(
@@ -48,7 +48,7 @@ def serve(
 @app.command()
 def dev(
     host: str = "0.0.0.0",
-    port: int = 8080,
+    port: int = 8180,
     reload: bool = True,
 ):
     uvicorn.run(

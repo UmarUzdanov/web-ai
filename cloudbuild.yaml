@@ -1,0 +1,28 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/web-ai:$COMMIT_SHA', '.']
+
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/web-ai:$COMMIT_SHA']
+
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'web-ai'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/web-ai:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--set-env-vars'
+      - 'DATA_DIR=/tmp,DATABASE_URL=sqlite:////tmp/webui.db,OLLAMA_BASE_URL=http://34.71.33.204:11434,PORT=8080,HOST=0.0.0.0'
+
+images:
+  - 'gcr.io/$PROJECT_ID/web-ai:$COMMIT_SHA'

@@ -5,6 +5,7 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
+from apps.webui.internal.db import engine
 
 from apps.webui.models.auths import Auth
 from apps.webui.models.chats import Chat
@@ -17,6 +18,11 @@ from apps.webui.models.tools import Tool
 from apps.webui.models.users import User
 from apps.webui.models.files import File
 from apps.webui.models.functions import Function
+
+from sqlalchemy import MetaData
+
+target_metadata = MetaData()
+target_metadata.reflect(bind=engine)
 
 from config import DATABASE_URL
 
@@ -41,6 +47,7 @@ target_metadata = Auth.metadata
 # ... etc.
 
 DB_URL = DATABASE_URL
+# DATABASE_URL = "sqlalchemy.url = mysql+pymysql://umar:DushanbeDom1!@127.0.0.1:3306/open_webui_db"
 
 if DB_URL:
     config.set_main_option("sqlalchemy.url", DB_URL.replace("%", "%%"))
